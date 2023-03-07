@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProyectoA_PMDM_T2_Alejandro_Garcia</string>
+    <string name="buscador">Buscador de la Comunidad de Madrid</string>
+    <string name="select">Seleccionar filtro</string>
+    <string name="filtro">%1$s: %2$s</string>
+    <string name="consulta">Consultar listado</string>
+    <string name="str_listado">Listado</string>
+    <string name="str_mapa">Mapa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hintLatitud">Latitud</string>
+    <string name="hintLongitud">Longitud</string>
+    <string name="hintDistancia">Distancia</string>
+    <string name="selFil">Seleccionar filtro</string>
+
+</resources>

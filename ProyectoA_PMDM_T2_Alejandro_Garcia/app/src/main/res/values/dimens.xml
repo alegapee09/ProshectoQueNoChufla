@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen">16dp</dimen>
+    <dimen name="textSize">22sp</dimen>
+    <dimen name="textSizeNor">18sp</dimen>
+    <dimen name="btnfiltros">200dp</dimen>
+</resources>

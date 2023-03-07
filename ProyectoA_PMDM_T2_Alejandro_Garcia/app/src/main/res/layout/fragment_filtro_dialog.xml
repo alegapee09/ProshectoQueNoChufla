@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/etLatitud"
+        android:layout_width="@dimen/btnfiltros"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen"
+        android:hint="@string/hintLatitud"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etLongitud"
+        android:layout_width="@dimen/btnfiltros"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen"
+        android:hint="@string/hintLongitud"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLatitud" />
+
+    <EditText
+        android:id="@+id/etDistancia"
+        android:layout_width="@dimen/btnfiltros"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen"
+        android:hint="@string/hintDistancia"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLongitud" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
